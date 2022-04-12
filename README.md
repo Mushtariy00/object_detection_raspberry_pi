@@ -19,8 +19,9 @@ EfficientDet-Lite model:
 
 ```
 cd object_detection_raspberry_pi
-
+```
 # The script install the required dependencies and download the TFLite models.
+```
 sh setup.sh
 ```
 
