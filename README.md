@@ -13,20 +13,18 @@ First, clone this Git repo onto your Raspberry Pi like this:
 ```
 git clone https://github.com/Mushtariy00/object_detection_raspberry_pi.git
 ```
+## Download the Python packages
 
-Then use our script to install a couple Python packages, and download the
-EfficientDet-Lite model:
 
 ```
 cd object_detection_raspberry_pi
 ```
-# The script install the required dependencies and download the TFLite models.
+The script install the required dependencies and download the TFLite models.
 ```
 sh setup.sh
 ```
 
-In this project, all you need from the TensorFlow Lite API is the `Interpreter`
-class. So instead of installing the large `tensorflow` package, we're using the
+In this project, instead of installing the large `tensorflow` package, we're using the
 much smaller `tflite_runtime` package. The setup scripts automatically install
 the TensorFlow Lite runtime.
 
