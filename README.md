@@ -2,8 +2,7 @@
 
 This example uses [TensorFlow Lite](https://tensorflow.org/lite) with Python on
 a Raspberry Pi to perform real-time object detection using images streamed from
-the Pi Camera. It draws a bounding box around each detected object in the camera
-preview (when the object score is above a given threshold).
+the Pi Camera. 
 
 
 ## Download the example files
